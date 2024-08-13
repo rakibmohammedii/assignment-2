@@ -315,24 +315,49 @@ BMI section design */
 }
 .bmi-main{
     margin: 0;
-    background:rgb(34, 34, 34, .7); ;
+    background:rgba(34, 34, 34, .9);
     width:1120px;
     height:500px;
     margin-bottom: 88px;
     border-radius: 15px;
     display: flex;
-    gap: 250px;
+    gap: 200px;
     justify-content: space-between;
     padding: 50px 90px  50px ;
 }
 .chart{
     padding: 52px auto 135px;
-    width: 316px;
+    width: 306px;
     height: 220px;
 }
-.bmi-calc{
+.bmi-clac{
+   background: rgba(255, 255, 255, 0.1);
+   padding: 10px;
+   border-radius: 5px;
+   color: rgba(255, 255, 255, 0.5);
     
 
+}
+.height-weight{
+    display: flex;
+    gap: 15px;
+}
+.factor{
+
+    height: 40px;
+    width: 500px;
+    margin-bottom: 15px;
+
+}
+.sex-age{
+    display: flex;
+    gap: 15px;
+
+}
+.sex{
+    height: 40px;
+    width: 240px;
+    /* border-radius: 12px; */
 }
 .main-bmi{
     padding: 20px;
@@ -366,5 +391,124 @@ table, th, td {
     
 
   }
+
+
+
+
+  /* Trainer section styles */
+
+  .trainer-pic-parent{
+    
+  }
+  .pic-trainer{
+    position: relative;
+    
+  }
+  .trainer-pic-parent{
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1) ;
+    width:1120px;
+    height:620px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+    margin: 40px 0;
+    
+    
+    
+
+  }
+  .tainer-text{
+    position: absolute;
+    margin-left: 1%;
+    margin-top: -4%;
+    
+
+  }
+  .tpic-1 img{
+    width:327px;
+    height: 272px;
+    border-radius: 12px;
+  }
+  .tpic-1p{
+    font-weight: normal;
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+.tpic-1h4{
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #fefdfd;
+}
+
+
+
+
+/* footer styles */
+.footer{
+    padding: 0 30px ;
    
+}
+.footer-title{
+    font-weight: 800;
+    font-size: 5rem;
+    color: rgb(230, 83, 60);
+    width: 256px;
+    margin-bottom: 20px;
+}
+.footerdes{
+    width: 456px;
+    text-align: justify;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+   
+    align-items: center;
+    padding-bottom: 20px;
+    
+
+}
+.sec-footer{
+    display: flex;
+    gap: 60px;
+}
+.footer-li{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+    list-style: none;
+}
+.footer-get{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.footer-para{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 30px;
+   
+}
+.hr{
+    margin-top: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.f-footer{
+    margin-top: 10px;
+    padding: 80px 190px 10px;
+    width: 1440px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+
 
