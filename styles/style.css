@@ -507,8 +507,9 @@ table, th, td {
     padding: 80px 190px 10px;
     width: 1440px;
     background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
 }
 
 
 
-
+/* Responsive Design */
