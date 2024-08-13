@@ -7,11 +7,19 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    ;
+
     
     /* background: #000; */
 }
+
+img{
+    width: 100%;
+}
 body{
     background: #1a1a1a;
+    width: 100vw;
+    height: 100vh;
  
 
 }
@@ -36,25 +44,25 @@ body{
     font-weight: 600;
     color: rgb(255, 255, 255);
     background: rgb(230, 83, 60);
-    padding:14px 40px;
-    border-radius: 42px;
+    padding:.9rem 2.7rem;
+    border-radius: 3rem;
     border: 1px solid rgb(230, 83, 60);
 }
 
 /* banner styles */
 .banner{
-    width: 1440px;
-     height: 715px;
-    padding: 57px 190px 0px 190px;
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 1) 100%); */
+    width:90rem;
+     height: 45rem;
+    padding: 5rem 13rem 0px 13rem;
+     /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 1) 100%); */ */
 } 
 .nav{
    
     display: flex;
-    gap: 463px;
+    gap: 29rem;
 }
 .logo{
-    margin: 0px 10px;
+    margin: 0px .7rem;
     color: rgb(230, 83, 60);
     font-size: 2.2rem;
     font-weight: 800;
@@ -63,15 +71,15 @@ body{
 .menu-items{
    
     display: flex;
-    gap: 47px;
+    gap: 3rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 39px;
+    border-radius: 3.1rem;
     list-style: none;
     
 }
 .list{
-    margin: 0px 10px;
-    padding: 8px 20px;
+    margin: 0px .7rem;
+    padding: .6rem 1.3rem;
     align-items: center;
     color: rgb(255, 255, 255);
     font-size: 1.1rem;
@@ -81,29 +89,29 @@ body{
 .home{
     color: rgb(255, 255, 255);
     background-color: rgb(230, 83, 60);
-    padding: 8px 20px;
+    padding: .7rem 1.2rem;
     border-radius: 46px;
     font-size: 1.1rem;
     font-weight: 600;
  
 }
 .title{
-    margin: 71px 0px;
+    margin: 3rem 0px;
 }
 
 .title-get{
-    font-size: 78px;
+    font-size: 4rem;
     font-weight: 900;
     text-align: left;
     color: rgb(255, 255, 255);
-    width: 520px;
-    height: 281px;
+    width: 33rem;
+    height: 17.5rem;
     line-height: 120%;
     ;
     
 }
 .shape{
-    font-size: 155px;
+    font-size: 8rem;
     font-weight: 400;
     font-family: miama;
     position: relative;
@@ -113,19 +121,20 @@ body{
 } */
 .heading{
     display: flex;
-    gap: 250px;
+    gap: 16.35rem;
 }
 .picture{ 
-     width: 350px;
-    height: 580px;
-    padding-top: 35px;
+     width: 23rem;
+    height: 36.25rem;
+    padding-top: 2.1rem;
+    width: 100%;
 
 }
 .description{
     font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-    margin: 28px 0px;
+    margin: 1rem 0px;
 }
 /* .invite{
     font-size:1.1rem;
@@ -137,12 +146,12 @@ body{
     border: 1px solid rgb(230, 83, 60);
 } */
 .app{
-    padding: 14px 40px;
+    padding: .9rem 2.5rem;
     font-size: 1.1rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
     
-    border-radius: 42px;
+    border-radius: 2.4rem;
     border: 1px solid rgb(237, 232, 232);
     background: transparent;
 }
@@ -157,15 +166,15 @@ body{
     color: rgba(255, 255, 255, 0.65);
 }
 .box-1{
-    padding: 10px 21px 20px 21px;
+    padding: .7rem 1.3rem 1.2rem 1.3rem;
     text-align: left;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    backdrop-filter: blur(25px);
+    border-radius: .7rem;
+    backdrop-filter: blur(1.4rem);
     background-color: rgba(255, 255, 255, 0.1);
     margin-left: 78%;
-    width: 210px;
-    height: 100px;
+    width: 13rem;
+    height: 6.2rem;
     position: absolute;
     bottom: 40%;
     color: #fff;
@@ -183,28 +192,28 @@ body{
     font-weight: 900;
 }
 .box-2{
-    padding: 10px 21px 20px 21px;
+    padding: .7rem 1.3rem 1.2rem 1.3rem;
     text-align: left;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    backdrop-filter: blur(25px);
+    border-radius: .7rem;
+    backdrop-filter: blur(1.4rem);
     background-color: rgba(255, 255, 255, 0.1);
     margin-left: 50%;
-    width: 210px;
-    height: 100px;
+    width: 13rem;
+    height: 6.2rem;
     position: absolute;
-    bottom:-13%;
+    bottom:16%;
     color: #fff;
     display: flex;
 
 }
 .circle{
 
-    margin-top:14px;
-    margin-right: 8px;
+    margin-top: 1rem;
+    margin-right: .7rem;
     background-color: rgb(230, 83, 60);
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
 }
 
@@ -213,7 +222,8 @@ body{
 /* main styles */
 /* main styles */
 main{
-    padding: 58px 190px 50px;
+    width: 100%;
+    padding:  5rem 13rem 0px 13rem;
     
 }
 /* .change-title{
@@ -294,6 +304,10 @@ main{
   
 
 }
+.running-pic{
+    width: 100%;
+}
+
 
 
 /* 
@@ -445,6 +459,20 @@ table, th, td {
 
 
 
+/* <!-- train-up section --> */
+.how-to-container{
+    border: 1px solid red;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 70rem;
+}
+
+
+
 /* footer styles */
 .footer{
     padding: 0 30px ;
@@ -503,6 +531,7 @@ table, th, td {
 }
 
 .f-footer{
+    width: 100%;
     margin-top: 10px;
     padding: 80px 190px 10px;
     width: 1440px;
@@ -513,3 +542,10 @@ table, th, td {
 
 
 /* Responsive Design */
+
+@media screen and (max-width: 576px){
+    
+    
+}
+    
+
