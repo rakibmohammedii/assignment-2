@@ -7,25 +7,15 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    ;
+    background-color: rgb(46, 45, 45);
 
     
     /* background: #000; */
 }
 
-img{
-    width: 100%;
-}
-body{
-    background: #1a1a1a;
-    max-width: 1280px;
-    
- 
-
-}
 /* shared styles
  */
-.titlefont{
+ .titlefont{
     color: #ffffff;
     font-size: 3rem;
     font-weight: 900;
@@ -39,38 +29,22 @@ body{
     text-align: center;
 
 }
-.join-btn{
-    font-size:1.1rem;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-    background: rgb(230, 83, 60);
-    padding:.9rem 2.7rem;
-    border-radius: 3rem;
-    border: 1px solid rgb(230, 83, 60);
-}
-header,main{
-    padding: 30px 70px;
+
+/* shared styles ends */
+
+
+/* header styles starts */
+header{
+    padding: 40px 60px;
+    max-width: 1200px;
 }
 
-/* banner styles */
-.humberger{
-    display: none;
-}
-header{
-    max-width: 1280px;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-}
-.banner{
-    max-width: 1280px;
-     height: 45rem;
-    /* padding: 5rem 13rem 0px 13rem; */ */
-     /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 1) 100%); */ */
-} 
-.nav{
-   
-    display: flex;
-    gap: 25rem;
-}
+
+/* header styles ends */
+
+
+/* nav styles starts */
+
 .logo{
     margin: 0px .7rem;
     color: rgb(230, 83, 60);
@@ -82,10 +56,11 @@ header{
 .menu-items{
    
     display: flex;
-    gap: 3rem;
+    /* gap: 3rem; */
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 3.1rem;
     list-style: none;
+    text-align: center;
     
 }
 .list{
@@ -96,6 +71,7 @@ header{
     font-size: 1.1rem;
     text-align: center;
     font-weight: 400;
+    margin-right: 3rem;
 }
 .home{
     color: rgb(255, 255, 255);
@@ -104,10 +80,24 @@ header{
     border-radius: 46px;
     font-size: 1.1rem;
     font-weight: 600;
+    margin-right: 15px;
  
 }
+.nav{
+   
+    display: flex;
+    gap: 37%;
+    text-align: center;
+}
+.humberger-menu{
+    display: none;
+    color: aliceblue;
+}
+/* nav styles ends */
+
+/* banner styles  starts*/
 .title{
-    margin: 3rem 0px;
+    margin-top: 100px;
 }
 
 .title-get{
@@ -118,44 +108,22 @@ header{
     width: 33rem;
     height: 17.5rem;
     line-height: 120%;
-    ;
+    
     
 }
 .shape{
     font-size: 8rem;
     font-weight: 400;
     font-family: miama;
-    position: relative;
-}
-/* .title{
-    padding: 57px 190px;
-} */
-.heading{
-    display:flex;
-    gap: 15rem;
-    
-}
-.picture{ 
-     max-width: 19rem;
-     max-height:3rem ;
-
+    background: transparent;
 }
 .description{
     font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     margin: .7rem 0px;
-    width: 33rem;
+    width: 30rem;
 }
-/* .invite{
-    font-size:1.1rem;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-    background: rgb(230, 83, 60);
-    padding:14px 40px;
-    border-radius: 42px;
-    border: 1px solid rgb(230, 83, 60);
-} */
 .app{
     padding: .9rem 2.5rem;
     font-size: 1.1rem;
@@ -166,15 +134,35 @@ header{
     border: 1px solid rgb(237, 232, 232);
     background: transparent;
 }
+.join-btn{
+    font-size:1.1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background: rgb(230, 83, 60);
+    padding:.9rem 2.7rem;
+    border-radius: 3rem;
+    border: 1px solid rgb(230, 83, 60);
+}
+.picture{ 
+    max-width: 19rem;
+    max-height:3rem ;
 
+}
+.heading{
+    display:flex;
+    gap: 15rem;
+    
+}
 .box-1h2{
     font-size:2rem;
     font-weight: 900;
+    background: none;
 }
 .free{
     font-size: .8rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.65);
+    background: none;
 }
 .box-1{
     padding: .7rem 1.3rem 1.2rem 1.3rem;
@@ -182,25 +170,29 @@ header{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: .7rem;
     backdrop-filter: blur(1.4rem);
-    background-color: rgba(255, 255, 255, 0.1);
-    margin-left: 76%;
-    width: 13rem;
-    height: 6.2rem;
+    background: rgba(255, 255, 255, 0.1);
+    
+    margin-left: 78%;
+    width: 11rem;
+    height: 5.4rem;
     position: absolute;
-    bottom: 56%;
+    bottom: 46%;
     color: #fff;
 
 }
-
-/* box-2 styles */
 .tutorial{
     font-size: .9rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.65);
+    background: none;
 }
 .box-2h2{
     font-size: 2.5rem;
     font-weight: 900;
+    background: none;
+}
+.box-2child{
+    background: none;
 }
 .box-2{
     padding: .7rem 1.3rem 1.2rem 1.3rem;
@@ -211,9 +203,9 @@ header{
     background-color: rgba(255, 255, 255, 0.1);
     margin-left: 50%;
     width: 13rem;
-    height: 6.2rem;
+    height: 5.4rem;
     position: absolute;
-    bottom:10%;
+    bottom:-3%;
     color: #fff;
     display: flex;
 
@@ -227,23 +219,15 @@ header{
     height: 2.5rem;
     border-radius: 50%;
 }
+/* banner styles ends */
 
 
-
-/* main styles */
-/* main styles */
- main{
-    margin-top: -130px;
-    /* padding:  5rem 13rem 0px 13rem; */
-    
-}
-.ex-items{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-
-
-}
-.ex-items img{
+ /* change Your Habits style starts */
+ .ex-items{
+    display: flex;
+    margin: 20px ;
+ }
+ .ex-items img{
     border-radius: 50%;
     padding: auto;
     height: 180px;
@@ -256,119 +240,115 @@ header{
     color: #fff;
 
 }
-
 .ex-items p{
     font-weight: 400;
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);
 
 }
+.first-main{
+    padding:60px 60px ;
+    max-width: 1200px;
+}
 
 
 
- /* Run an Extra Mile Easily */
- .run-parent{
-    width: 1120px;
+
+
+/* change Your Habits style ends  */
+
+
+/* Run an extra mile easily  style starts */
+
+.runp,.runh2,.renbtn,.trainh2,.trainp{
+    margin-bottom: 30px;
+    text-align: justify;
+    background: none;
+}
+.run-wrapper{
+    width: 48%;
+}
+.run-parent img{
+    width: 100%;
+    border-radius: 18px;
+}
+.run{
+    flex-direction: column;
+    background: none;
+    align-items: center;
+    justify-content: space-around;
+    
+
+} 
+.run-parent{
+    max-width: 1200px;
     padding: 41px 35px 40px 55px;
     margin-top: 120px;
     margin-bottom: 100px;
+    margin: 60px;
     display: flex;
-    gap: 230px;
+    
     justify-content: space-between;
     border-radius: 18px;
     background: rgb(34, 34, 34);
     
 }
-.run{
-    flex-direction: column;
-    justify-content: space-around;
-    width:450px;
-}   
-.run-parent img{
-    width: 435px;
-    height: 310px;
-    border-radius: 18px;
-}
-.runp,.runh2,.renbtn,.trainh2,.trainp{
-    margin-bottom: 30px;
-    text-align: justify;
-    
-  
-
-}
-.running-pic{
-    width: 100%;
-}
-
 
 
 /* 
-BMI section design */
-.bmi-form input{
-    width: 240px;
-    margin-bottom: 30px;
-}
-.bmi-calc{
-    width: 50vw;
-}
+Run an extra mile easily  style ends */
+
+
+
+/* <!-- BMI calculator section  style starts */
+
 .bmih2p{
-    margin: 88px 150px 88px 200px;
-    justify-content: center;
+    margin: 88px 300px;
+   
 }
 .bmih2,.bmip{
     text-align: justify;
-    
-}
+}  
 .bmi-main{
-    margin: 0;
-    background:rgba(34, 34, 34, .9);
-    width:1120px;
-    height:500px;
-    margin-bottom: 88px;
-    border-radius: 15px;
-    display: flex;
-    gap: 200px;
-    justify-content: space-between;
-    padding: 50px 90px  50px ;
-}
-.chart{
-    padding: 52px auto 135px;
-    width: 306px;
-    height: 220px;
-}
-.bmi-clac{
-   background: rgba(255, 255, 255, 0.1);
-   padding: 10px;
-   border-radius: 5px;
-   color: rgba(255, 255, 255, 0.5);
+        background:rgba(34, 34, 34, .9);
+      
+        margin-bottom: 88px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px;
+      
+    }
+    .bbmi{
+        width: 48%;
+        background: none;
+        
+    }
+    .bmi-clac{
+        background: rgba(255, 255, 255, 0.1);
+        padding: 10px;
+        border-radius: 5px;
+        color: rgba(255, 255, 255, 0.5);
+        margin: 25px 20px;
+         
+     
+     }
+     .factor{
+
+        height: 40px;
+        width: 500px;
     
-
-}
-.height-weight{
-    display: flex;
-    gap: 15px;
-}
-.factor{
-
-    height: 40px;
-    width: 500px;
-    margin-bottom: 15px;
-
-}
-.sex-age{
-    display: flex;
-    gap: 15px;
-
-}
-.sex{
-    height: 40px;
-    width: 240px;
-    /* border-radius: 12px; */
-}
-.main-bmi{
-    padding: 20px;
-}
-/* table design */
+    
+    }
+    .sex{
+        height: 40px;
+        width: 210px;
+        /* border-radius: 12px; */
+    }
+    .main-bmi{
+        padding: 20px;
+    }
+  /* table design */
 .form-table{
     font-weight: 900;
     font-size: 1.5rem;
@@ -390,52 +370,58 @@ th{
     color: rgb(255, 255, 255);
 }
 table, th, td {
-    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    border: 0.5px solid rgba(90, 88, 88, 0.1);
+  }
+  .bmi-section{
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .chart{
+    align-items: center;
+    text-align: center;
+    background: transparent;
   }
   .table{
-    margin:
-    
-
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
 
-
+   /* Meet our team  style starts */
+   
 
   /* Trainer section styles */
-  .last-main{
-    width: 100%;
+  
+  /* Trainer section styles */
+  
 
-  }
-
-  .trainer-pic-parent{
-    
-  }
   .pic-trainer{
     position: relative;
     
   }
-  .trainer-pic-parent{
-    border-radius: 18px;
-    background: rgba(255, 255, 255, 0.1) ;
-    width:1120px;
-    height:620px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(3,1fr);
-    padding: 20px;
-    margin: 40px 0;
-    
-    
-    
-
-  }
-  .tainer-text{
+  .trainer-text{
     position: absolute;
     margin-left: 1%;
     margin-top: -4%;
     
 
   }
+  .trainer-pic-parent{
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1) ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 20px;
+    margin: 40px 80px;
+    
+    
+    
+
+  }
+ 
   .tpic-1 img{
     width:327px;
     height: 272px;
@@ -453,8 +439,16 @@ table, th, td {
 }
 
 
+ 
 
 
+
+      /* Meet our team  style ends */
+
+
+      /* warm up styles starts */
+
+      
 /* <!-- train-up section --> */
 .how-to-container{
     border: 1px solid red;
@@ -467,6 +461,7 @@ table, th, td {
     width: 100%;
 }
 
+/* warm up styles ends */
 
 
 /* footer styles */
@@ -492,9 +487,6 @@ table, th, td {
    
     align-items: center;
     padding: 70px 0;
-
-    
-
 }
 .sec-footer{
     display: flex;
@@ -534,14 +526,4 @@ table, th, td {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
 }
-
-
-
-/* Responsive Design */
-
-@media screen and (max-width: 576px){
-    
-    
-}
-    
 
