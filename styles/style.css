@@ -18,8 +18,8 @@ img{
 }
 body{
     background: #1a1a1a;
-    width: 100vw;
-    height: 100vh;
+    max-width: 1280px;
+    
  
 
 }
@@ -48,24 +48,35 @@ body{
     border-radius: 3rem;
     border: 1px solid rgb(230, 83, 60);
 }
+header,main{
+    padding: 30px 70px;
+}
 
 /* banner styles */
+.humberger{
+    display: none;
+}
+header{
+    max-width: 1280px;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
 .banner{
-    width:90rem;
+    max-width: 1280px;
      height: 45rem;
-    padding: 5rem 13rem 0px 13rem;
+    /* padding: 5rem 13rem 0px 13rem; */ */
      /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 1) 100%); */ */
 } 
 .nav{
    
     display: flex;
-    gap: 29rem;
+    gap: 25rem;
 }
 .logo{
     margin: 0px .7rem;
     color: rgb(230, 83, 60);
     font-size: 2.2rem;
     font-weight: 800;
+    font-style: italic;
 
 }
 .menu-items{
@@ -120,21 +131,21 @@ body{
     padding: 57px 190px;
 } */
 .heading{
-    display: flex;
-    gap: 16.35rem;
+    display:flex;
+    gap: 15rem;
+    
 }
 .picture{ 
-     width: 23rem;
-    height: 36.25rem;
-    padding-top: 2.1rem;
-    width: 100%;
+     max-width: 19rem;
+     max-height:3rem ;
 
 }
 .description{
     font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-    margin: 1rem 0px;
+    margin: .7rem 0px;
+    width: 33rem;
 }
 /* .invite{
     font-size:1.1rem;
@@ -157,11 +168,11 @@ body{
 }
 
 .box-1h2{
-    font-size:2.5rem;
+    font-size:2rem;
     font-weight: 900;
 }
 .free{
-    font-size: .9rem;
+    font-size: .8rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.65);
 }
@@ -172,11 +183,11 @@ body{
     border-radius: .7rem;
     backdrop-filter: blur(1.4rem);
     background-color: rgba(255, 255, 255, 0.1);
-    margin-left: 78%;
+    margin-left: 76%;
     width: 13rem;
     height: 6.2rem;
     position: absolute;
-    bottom: 40%;
+    bottom: 56%;
     color: #fff;
 
 }
@@ -202,7 +213,7 @@ body{
     width: 13rem;
     height: 6.2rem;
     position: absolute;
-    bottom:16%;
+    bottom:10%;
     color: #fff;
     display: flex;
 
@@ -221,41 +232,22 @@ body{
 
 /* main styles */
 /* main styles */
-main{
-    width: 100%;
-    padding:  5rem 13rem 0px 13rem;
+ main{
+    margin-top: -130px;
+    /* padding:  5rem 13rem 0px 13rem; */
     
 }
-/* .change-title{
-
-    color: #ffffff;
-    font-size: 3rem;
-    font-weight: 900;
-    text-align: center;
-
-
-} */
-/* .change-des{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: .9rem;
-    font-weight: 400;
-    text-align: center;
-
-} */
- .change{
-    padding: 0 200px;
-
-}
 .ex-items{
-    display: flex;
-    gap: 15px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+
 
 }
 .ex-items img{
     border-radius: 50%;
     padding: auto;
     height: 180px;
-    width: 270px;
+    width: 250px;
     margin-top: 58px;
 }
 .ex-items h5{
@@ -278,7 +270,7 @@ main{
  .run-parent{
     width: 1120px;
     padding: 41px 35px 40px 55px;
-    margin-top: 60px;
+    margin-top: 120px;
     margin-bottom: 100px;
     display: flex;
     gap: 230px;
@@ -410,6 +402,10 @@ table, th, td {
 
 
   /* Trainer section styles */
+  .last-main{
+    width: 100%;
+
+  }
 
   .trainer-pic-parent{
     
@@ -468,14 +464,14 @@ table, th, td {
     margin-top: 1rem;
     margin-bottom: 2rem;
     padding: 1rem;
-    width: 70rem;
+    width: 100%;
 }
 
 
 
 /* footer styles */
 .footer{
-    padding: 0 30px ;
+    padding: 0 0px ;
    
 }
 .footer-title{
@@ -486,35 +482,36 @@ table, th, td {
     margin-bottom: 20px;
 }
 .footerdes{
-    width: 456px;
+    width: 406px;
     text-align: justify;
 }
 .main-footer{
     display: flex;
     justify-content: space-between;
-    gap: 130px;
+    gap: 80px;
    
     align-items: center;
-    padding-bottom: 20px;
+    padding: 70px 0;
+
     
 
 }
 .sec-footer{
     display: flex;
-    gap: 60px;
+    gap: 90px;
 }
 .footer-li{
     font-size: 1.4rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     list-style: none;
 }
 .footer-get{
     font-weight: 700;
     font-size: 2rem;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 
 }
 .footer-para{
@@ -522,19 +519,18 @@ table, th, td {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
-    padding: 30px;
+    padding: px;
    
 }
 .hr{
-    margin-top: 30px;
+    margin-bottom: 30px;
     border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .f-footer{
-    width: 100%;
-    margin-top: 10px;
-    padding: 80px 190px 10px;
-    width: 1440px;
+    max-width: 1280px;
+    margin-top: 50px;
+    padding: 0px 100px 30px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
 }
